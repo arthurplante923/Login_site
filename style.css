@@ -1,0 +1,80 @@
+.site{
+    display: flex;
+}
+.image{
+    width: 35%;
+    max-height: 100%;
+}
+.logo{
+    height:130px;
+    width: 130px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+}
+.nom_comp{
+    font-weight: 600;
+    font-size: 75px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    max-height: 100%;
+}
+.table{
+    display: flex;
+    padding-left:20px ;
+    width:100%;
+    background-color: rgb(241, 241, 241);
+
+}
+.header{
+    padding-left:20px ;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.titre{
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 48px;
+}
+input{
+    border:2px solid rgb(126, 126, 126);
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+.link{
+    text-decoration:none;
+}
+.fin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:20px ;
+    height: 55px;
+    width: 200px;
+    background-color: rgb(1, 73, 1);
+    color: rgb(255, 251, 251);
+    border-radius: 15px;
+    text-align: center;
+}
+.bottom{
+    padding-left: 20px;
+}
+.list{
+    font-size: 15px;
+    color: rgb(121, 121, 121);
+}

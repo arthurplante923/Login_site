@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="site">
+        <img class="image" src="/home/arthur/repos/Login_site/photo/photo.jpg" alt="photo d'une très belle ville">
+        <div class="text">
+            <div class="top">
+                <div class="nom_comp">Travel company</div>
+                <img class="logo" src="/home/arthur/repos/Login_site/photo/logo.png" alt="logo d'une compagnie aérienne">
+            </div>
+            <div class="header">
+                Tout le monde aime voyager avec les meilleurs prix.
+                Alors si vous voulez en profiter inscrivez-vous.
+            </div>
+            <form action="/action.html" method="get">
+               <table class="table">
+                   <tr>
+                       <td class="titre">Inscrivez-vous</td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <label for="prénom">Prénom</label>
+                           <div><input type="text" id="prénom" placeholder="Bastien" size="prénom" pattern="[A-Za-z]+"> </div>
+                       </td>
+                       <td>
+                           <label for="Nom">Nom</label>
+                           <div><input type="text" id="Nom" placeholder="Saint-Rocher" size="Nom" pattern="[A-Za-z]+"></div>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <label for="user_email">Adresse email</label>
+                           <div><input type="email" id="user_email" name="email" placeholder="you@example.com" required></div>
+                       </td>
+                       <td>
+                           <label for="telephone_number">Numéro de téléphone</label>
+                           <div>
+                            <input type="tel" id="telephone_number" name="tel" placeholder="999-999-9999" 
+                            pattern="[0-9]{3} [0-9]{3} [0-9]{4}||[0-9]{3}[0-9]{3}[0-9]{4}||[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                           </div>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <label for="user_password">Mot de passe</label>
+                           <div>
+                            <input type="password" id="user_password" name="password" placeholder="password" 
+                            minlength="4" maxlength="12" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{4,12}"required>
+                           </div>
+                            <ul class="list">
+                                <div>Doit inclure:</div>
+                                <li>Une majuscule</li>
+                                <li>Une minuscule</li>
+                                <li>Un des symboles suivants:! @ # $ % ? & *</li>
+                                <li>Doit contenir au moins un chiffre</li>
+                                <li>entre 4 et 12 caracthere</li>
+                              </ul> 
+                           </div>
+                       </td>
+                       <td>
+                           <label for="comfirm_password">Confirme le mot de passe</label>
+                           <div><input type="password" id="comfirm_password" name="password" placeholder="comfirm password"
+                            minlength="4" maxlength="12" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{4,12}"required>
+                            <ul class="list">
+                                <div>Doit inclure:</div>
+                                <li>Une majuscule</li>
+                                <li>Une minuscule</li>
+                                <li>Un des symboles suivants:! @ # $ % ? & *</li>
+                                <li>Doit contenir au moins un chiffre</li>
+                                <li>entre 4 et 12 caracthere</li>
+                              </ul> 
+                            </div>
+                       </td>
+                   </tr>
+               </table>
+               <button class="fin" type="submit">Creer le compte</button>
+            </form>
+            <div class="bottom" >Déjà inscrit?<a class="link" href="index2.html">Enregiste-toi.<a></div>
+       
+           </div>
+    </div>
+</body>
+</html>
